@@ -93,14 +93,13 @@ curl http://localhost:8080/task/abc123/status
 ## Архитектура проекта
 
 ```
-.
-├── main.go            # Точка входа
-├── api/               # HTTP-обработчики
-├── config/            # Конфигурация
-├── task/              # Логика задач, структура TaskManager
-├── utils/             # Утилиты: загрузка файлов, проверка расширений, ID
-├── archives/          # Папка с готовыми архивами
-└── readme.md
+- api/               # HTTP-обработчики
+- archives/          # Папка с готовыми архивами
+- cmd/app/main.go    # Точка входа
+- config/            # Конфигурация
+- task/              # Логика задач, структура TaskManager
+- utils/             # Утилиты: загрузка файлов, проверка расширений, ID
+- readme.md
 ```
 
 ---
@@ -111,11 +110,6 @@ curl http://localhost:8080/task/abc123/status
 ```
 http://localhost:8080/archives/{task_id}.zip
 ```
-
-> Убедитесь, что `main.go` содержит обработку:
-> ```go
-> http.Handle("/archives/", http.StripPrefix("/archives/", http.FileServer(http.Dir("archives"))))
-> ```
 
 ---
 

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GoORMHelperCache">
+    <option name="schemaMapping">
+      <map>
+        <entry key="Config">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/config.go" />
+              <option value="file://$PROJECT_DIR$/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Handler">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/handlers.go" />
+              <option value="file://$PROJECT_DIR$/api/handlers_test.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Manager">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/task/manager.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Req">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/handlers.go" />
+              <option value="file://$PROJECT_DIR$/api/handlers_test.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Task">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/task/task.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="TaskManager">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/task/manager.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="mockConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/task/manager_test.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="testServer">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/handlers_test.go" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="scannedPathMapping">
+      <map>
+        <entry key="file://$PROJECT_DIR$/api/handlers.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753871031121" />
+              <option name="schema">
+                <list>
+                  <option value="Handler" />
+                  <option value="Req" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/handlers_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753871390904" />
+              <option name="schema">
+                <list>
+                  <option value="testServer" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/config.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753867139966" />
+              <option name="schema">
+                <list>
+                  <option value="Config" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/config/config.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753867308306" />
+              <option name="schema">
+                <list>
+                  <option value="Config" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753945402636" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/storage/storage.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753867079211" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/task/manager.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753870552086" />
+              <option name="schema">
+                <list>
+                  <option value="Manager" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/task/manager_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753870711387" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/task/task.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753867358679" />
+              <option name="schema">
+                <list>
+                  <option value="Task" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/task/worker.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753867063446" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/utils/downloader.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753870614287" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/utils/downloader_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753870795792" />
+            </ScannedPath>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="tableStructMapping">
+      <map>
+        <entry key="config" value="Config" />
+        <entry key="handler" value="Handler" />
+        <entry key="manager" value="Manager" />
+        <entry key="mock_config" value="mockConfig" />
+        <entry key="req" value="Req" />
+        <entry key="task" value="Task" />
+        <entry key="task_manager" value="TaskManager" />
+        <entry key="test_server" value="testServer" />
+      </map>
+    </option>
+    <option name="lastTimeChecked" value="1753866993153" />
+  </component>
+</project>

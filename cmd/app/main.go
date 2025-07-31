@@ -19,7 +19,7 @@ func main() {
 
 	http.HandleFunc("/task/", handler.RouteTaskSubpaths)
 	http.Handle("/archives/", http.StripPrefix("/archives/", http.FileServer(http.Dir("archives"))))
-	
+
 	fmt.Println("Server listening on port:", cfg.Port)
 	if err := http.ListenAndServe(":"+cfg.Port, nil); err != nil {
 		fmt.Printf("Failed to start server: %v\n", err)
